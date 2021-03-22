@@ -9,7 +9,53 @@
   "borderWidth": "",
   "cached_js": null,
   "cached_js_script_hash": null,
-  "children": [],
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerUpdate",
+        "Elements",
+        "txtaNames.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerUpdate",
+        "Elements",
+        "inptOldName.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerUpdate",
+        "Elements",
+        "inptNewName.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerUpdate",
+        "Elements",
+        "btnSubmitUpdate.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerUpdate",
+        "Elements",
+        "lblMessage7.json"
+      ]
+    }
+  ],
   "class": "",
   "designHeight": 0,
   "designWidth": 0,
