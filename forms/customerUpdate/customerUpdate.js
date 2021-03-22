@@ -2,7 +2,7 @@ customerUpdate.onshow=function(){
   // populate the textarea with all the pet names
     txtaNames_contents.style.height = "150px"
     query = "SELECT * FROM customer"
-    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=dhe61359&query=" + query)
+    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=blm26391&query=" + query)
     if (req.status == 200) {
         results = JSON.parse(req.responseText)
         let message = ""
