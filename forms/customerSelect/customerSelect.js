@@ -1,7 +1,8 @@
+/*
 let req = ""
 let query = ""
 let results = ""
-let pw = "Password"  // put your database password here
+let pw = "Zsth7522?"  // put your database password here
 let netID = "blm26391"
 let allCustomers = []
 
@@ -35,3 +36,4 @@ btnCustomers.onclick=function(){
   } else   // the transit didn't work - bad wifi? server turned off?
         lblMessage1.value = "Error code: " + req.status
 }
+*/

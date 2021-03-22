@@ -1,3 +1,6 @@
+let netID = "blm26391"
+let pw = "Zsth7522"
+
 customerUpdate.onshow=function(){
   // populate the textarea with all the pet names
     txtaNames_contents.style.height = "150px"

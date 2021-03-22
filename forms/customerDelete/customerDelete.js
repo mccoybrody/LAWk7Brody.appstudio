@@ -1,3 +1,6 @@
+
+let pw = "Zsth7522?"
+
 customerDelete.onshow=function(){
        // get all the pet data from the database when program loads
     query = "SELECT * FROM customer"

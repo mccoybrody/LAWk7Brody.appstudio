@@ -1,3 +1,4 @@
+
 btnSubmitAdd.onclick=function(){
     let customerName = inptName1.value
     let street = inptStreet.value
@@ -16,3 +17,4 @@ btnSubmitAdd.onclick=function(){
         } else 
         lblMessage4.textContent = "Error: " + req.status
 }
+
