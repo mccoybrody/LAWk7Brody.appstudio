@@ -2,7 +2,7 @@ let req = ""
 let query = ""
 let results = ""
 let pw = "Password"  // put your database password here
-let netID = "dhe61359"
+let netID = "blm26391"
 let allCustomers = []
 
 customerSelect.onshow=function(){
@@ -12,7 +12,7 @@ customerSelect.onshow=function(){
 btnCustomers.onclick=function(){
     query = "SELECT * FROM customer"
     // Below change from my netID to yours (twice: user and database)    
-    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=dhe61359&pass=" + pw + "&database=dhe61359&query=" + query)
+    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=blm26391&pass=" + pw + "&database=blm26391&query=" + query)
 
     if (req.status == 200) {
            console.log(`req.responseText is a JSON string that looks like this: ${req.responseText}`)
