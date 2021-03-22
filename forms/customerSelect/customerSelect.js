@@ -1,7 +1,8 @@
+/*
 let req = ""
 let query = ""
 let results = ""
-let pw = "Password"  // put your database password here
+let pw = "Zsth7522?"  // put your database password here
 let netID = "blm26391"
 let allCustomers = []
 
@@ -21,7 +22,7 @@ btnCustomers.onclick=function(){
            console.log(`The parsed JSON string is converted to a JS object (an array of arrays): ${results} where results[0] is ${results[0]}, the first array in the JS results object.`)
         
         if (results.length == 0)    // no results were returned by the query
-           lblMessage1.textContent = "There are no pets in the database."
+           lblMessage1.value = "There are no customers in the database."
         else { 
             console.log(`the first row/item in the big array is a small array: ${results[0]}`)
             console.log(`to get to Paul, need results[0][1]: ${results[0][1]}`)
@@ -33,5 +34,6 @@ btnCustomers.onclick=function(){
      } // end else
 
   } else   // the transit didn't work - bad wifi? server turned off?
-        lblMessage1.textContent = "Error code: " + req.status
+        lblMessage1.value = "Error code: " + req.status
 }
+*/
